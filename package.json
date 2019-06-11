@@ -2,8 +2,9 @@
   "name": "@seznam/compose-react-refs",
   "version": "1.0.0",
   "description": "A simple utility for composing two or more react refs into a single callback ref.",
-  "main": "index.js",
+  "main": "composeRefs.js",
   "scripts": {
+    "compile": "tsc --project .",
     "test": "tslint --project . && jest"
   },
   "repository": {
