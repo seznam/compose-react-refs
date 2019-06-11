@@ -1,0 +1,34 @@
+{
+  "name": "@seznam/compose-react-refs",
+  "version": "1.0.0",
+  "description": "A simple utility for composing two or more react refs into a single callback ref.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seznam/compose-react-refs.git"
+  },
+  "keywords": [
+    "react",
+    "ref",
+    "refs",
+    "combine",
+    "compose",
+    "multiple",
+    "chain"
+  ],
+  "author": "Martin Jurča <martin.jurca@firma.seznam.cz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seznam/compose-react-refs/issues"
+  },
+  "homepage": "https://github.com/seznam/compose-react-refs#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "typescript": "^3.5.1"
+  }
+}
