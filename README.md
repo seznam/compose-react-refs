@@ -21,4 +21,4 @@ export default React.forwardRef((props, externalRef) => {
 })
 ```
 
-
+The refs will be updated in the order in which they were provided.
