@@ -4,7 +4,7 @@
   "description": "A simple utility for composing two or more react refs into a single callback ref.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "tslint --project . && jest"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "@types/react": "^16.8.19",
     "jest": "^24.8.0",
     "react": "^16.8.6",
+    "tslint": "^5.17.0",
+    "tslint-microsoft-contrib": "^6.2.0",
     "typescript": "^3.5.1"
   }
 }
