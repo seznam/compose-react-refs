@@ -4,6 +4,10 @@ A simple utility for composing two or more
 [react refs](https://reactjs.org/docs/refs-and-the-dom.html) (ref objects and
 callbacks are both supported and can be mixed) into a single callback ref.
 
+This utility does not use
+[react hooks](https://reactjs.org/docs/hooks-intro.html), therefore it can be
+used in class components (and even outside of react world) safely.
+
 ## Usage
 
 ```typescript jsx
