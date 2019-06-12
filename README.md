@@ -8,7 +8,19 @@ This utility does not use
 [react hooks](https://reactjs.org/docs/hooks-intro.html), therefore it can be
 used in class components (and even outside of react world) safely.
 
+## Installation
+
+`compose-react-refs` is available as npm package, you can use `npm` to install
+it:
+
+```
+npm install --save @seznam/compose-react-refs
+```
+
 ## Usage
+
+The following example shows usage in a functional component that composes an
+external ref with its own ref it uses to focus the renderer `<input>` element:
 
 ```typescript jsx
 import * as React from 'react'
@@ -25,4 +37,5 @@ export default React.forwardRef((props, externalRef) => {
 })
 ```
 
-The refs will be updated in the order in which they were provided.
+The refs will be updated in the order in which they were provided to the
+`composeRefs` function.
