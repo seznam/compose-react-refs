@@ -6,7 +6,9 @@
 
 A simple utility for composing two or more
 [react refs](https://reactjs.org/docs/refs-and-the-dom.html) (ref objects and
-callbacks are both supported and can be mixed) into a single callback ref.
+callbacks are both supported and can be mixed) into a single callback ref. This
+enables you to effectively
+[set multiple refs on the same component/element](https://github.com/facebook/react/issues/13029).
 
 This utility does not use
 [react hooks](https://reactjs.org/docs/hooks-intro.html), therefore it can be
