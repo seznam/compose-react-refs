@@ -8,7 +8,7 @@
     "compile": "tsc --project .",
     "prepublishOnly": "echo 'Run \\'npm run publish-package\\' instead' && exit 1exit 1",
     "publish-package": "git push && git push --tags && npm run build && npm publish --access=public --ignore-scripts dist",
-    "test": "tslint --project . && jest"
+    "test": "tslint --project . && jest && stryker run"
   },
   "repository": {
     "type": "git",
