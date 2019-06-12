@@ -1,5 +1,7 @@
 # Compose react refs
 
+[![Build Status](https://travis-ci.org/seznam/compose-react-refs.svg?branch=master)](https://travis-ci.org/seznam/compose-react-refs)
+
 A simple utility for composing two or more
 [react refs](https://reactjs.org/docs/refs-and-the-dom.html) (ref objects and
 callbacks are both supported and can be mixed) into a single callback ref.
