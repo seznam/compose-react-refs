@@ -27,9 +27,11 @@
   },
   "homepage": "https://github.com/seznam/compose-react-refs#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.13",
     "@types/react": "^16.8.19",
     "jest": "^24.8.0",
     "react": "^16.8.6",
+    "ts-jest": "^24.0.2",
     "tslint": "^5.17.0",
     "tslint-microsoft-contrib": "^6.2.0",
     "typescript": "^3.5.1"
