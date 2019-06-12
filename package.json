@@ -30,6 +30,10 @@
   },
   "homepage": "https://github.com/seznam/compose-react-refs#readme",
   "devDependencies": {
+    "@stryker-mutator/core": "^2.0.0",
+    "@stryker-mutator/html-reporter": "^2.0.0",
+    "@stryker-mutator/jest-runner": "^2.0.0",
+    "@stryker-mutator/typescript": "^2.0.0",
     "@types/jest": "^24.0.13",
     "@types/react": "^16.8.19",
     "jest": "^24.8.0",
