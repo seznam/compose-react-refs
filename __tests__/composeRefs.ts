@@ -137,4 +137,19 @@ describe('composeRefs', () => {
     expect(lastRef).toHaveBeenCalledTimes(1)
     expect(lastRef).toHaveBeenCalledWith(value)
   })
+
+  it('should micro-optimize composing only two refs', () => {
+    jest.spyOn(Array.prototype, 'reduce' as any).mockImplementation(() => {
+      throw new Error('This should have been micro-optimized')
+    })
+
+    composeRefs(createRef(), createRef())
+    composeRefs(createRef(), jest.fn())
+    composeRefs(null, jest.fn())
+    composeRefs(null, null)
+  })
+
+  afterEach(() => {
+    jest.restoreAllMocks()
+  })
 })
