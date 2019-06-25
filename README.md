@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/seznam/compose-react-refs.svg?branch=master)](https://travis-ci.org/seznam/compose-react-refs)
 [![npm](https://img.shields.io/npm/v/@seznam/compose-react-refs.svg)](https://www.npmjs.com/package/@seznam/compose-react-refs)
 [![License](https://img.shields.io/npm/l/@seznam/compose-react-refs.svg)](LICENSE)
+![npm type definitions](https://img.shields.io/npm/types/@seznam/compose-react-refs.svg)
 
 A simple utility for composing two or more
 [react refs](https://reactjs.org/docs/refs-and-the-dom.html) (ref objects and
