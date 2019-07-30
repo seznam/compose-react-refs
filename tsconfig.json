@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "lib": [
+      "dom",
+      "scripthost",
+      "es5",
+      "es2015.collection"
+    ],
     "module": "commonjs",
     "declaration": true,
     "declarationMap": true,
