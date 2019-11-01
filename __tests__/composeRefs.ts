@@ -149,6 +149,11 @@ describe('composeRefs', () => {
     composeRefs(null, null)
   })
 
+  it('should accept undefined as refs as well an return a null', () => {
+    expect(composeRefs(undefined, undefined)).toBeNull()
+    expect(composeRefs(undefined, undefined, undefined)).toBeNull()
+  })
+
   afterEach(() => {
     jest.restoreAllMocks()
   })
