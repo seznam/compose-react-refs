@@ -40,6 +40,8 @@ export default React.forwardRef((props, externalRef) => {
     myRef.current.focus()
   })
 
+  // No need to worry about nulls and undefined refs here, they will be
+  // filtered out automatically.
   return <input {...props} ref={composeRefs(myRef, externalRef)}/>
 })
 ```
