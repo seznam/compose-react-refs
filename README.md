@@ -46,6 +46,19 @@ export default React.forwardRef((props, externalRef) => {
 })
 ```
 
+The `composeRefs` function allows combining any number of refs:
+
+```typescript jsx
+import * as React from 'react'
+import composeRefs from '@seznam/compose-react-refs'
+
+export default React.forwardRef((props, externalRef) => {
+  const myRef = React.useRef(null)
+  const otherRef = React.useRef(null)
+  return <input {...props} ref={composeRefs(myRef, null, undefined, otherRef, props.extraRef, externalRef)}/>
+})
+```
+
 The refs will be updated in the order in which they were provided to the
 `composeRefs` function. The composed ref passed to react is cached (no need to
 use [`useMemo`](https://reactjs.org/docs/hooks-reference.html#usememo) in your
