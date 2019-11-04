@@ -45,4 +45,6 @@ export default React.forwardRef((props, externalRef) => {
 ```
 
 The refs will be updated in the order in which they were provided to the
-`composeRefs` function.
+`composeRefs` function. The composed ref passed to react is cached, improving
+performance and preventing
+[unexpected ref updates](https://reactjs.org/docs/refs-and-the-dom.html#caveats-with-callback-refs).
