@@ -4,7 +4,7 @@
   "description": "A simple utility for composing two or more react refs into a single callback ref.",
   "main": "composeRefs.js",
   "scripts": {
-    "build": "rm -rf dist/ && npm test && npm run compile && cp LICENSE package.json README.md dist/",
+    "build": "rm -rf dist/ && npm test && npm run compile && cp LICENSE package.json README.md composeRefs.ts dist/",
     "compile": "tsc --project .",
     "prepublishOnly": "echo 'Run \\'npm run publish-package\\' instead' && exit 1",
     "publish-package": "git push && git push --tags && npm run build && npm publish --access=public --ignore-scripts dist",
