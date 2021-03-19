@@ -1,6 +1,6 @@
 {
   "name": "@seznam/compose-react-refs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple utility for composing two or more react refs into a single callback ref.",
   "main": "composeRefs.js",
   "types": "./composeRefs.d.ts",
