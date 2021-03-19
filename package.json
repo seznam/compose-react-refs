@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "A simple utility for composing two or more react refs into a single callback ref.",
   "main": "composeRefs.js",
+  "types": "./composeRefs.d.ts",
   "scripts": {
     "build": "rm -rf dist/ && npm test && npm run compile && cp LICENSE package.json README.md composeRefs.ts dist/",
     "compile": "tsc --project .",
